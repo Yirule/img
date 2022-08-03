@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="a" x1="0" x2="0" y1="-2" y2="-40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00047f" stop-opacity="0"/>
+      <stop offset=".01" stop-color="#00047f" stop-opacity=".03"/>
+      <stop offset=".08" stop-color="#00047f" stop-opacity=".29"/>
+      <stop offset=".15" stop-color="#00047f" stop-opacity=".51"/>
+      <stop offset=".24" stop-color="#00047f" stop-opacity=".69"/>
+      <stop offset=".34" stop-color="#00047f" stop-opacity=".83"/>
+      <stop offset=".46" stop-color="#00047f" stop-opacity=".93"/>
+      <stop offset=".62" stop-color="#00047f" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#00047f"/>
+    </linearGradient>
+    <linearGradient id="d" x1="20" x2="40" y1="-8" href="#a"/>
+    <clipPath id="b">
+      <path d="M-40-40h80v80h-80v-80zm17 40v40h4V0"/>
+    </clipPath>
+    <path id="c" d="M2-40h38v38A38 38 0 0 1 2-40Z"/>
+  </defs>
+  <g clip-path="url(#b)" transform="translate(40 40)">
+    <use fill="url(#a)" href="#c"/>
+    <use fill="url(#a)" href="#c" transform="rotate(90)"/>
+    <use fill="url(#d)" href="#c" transform="rotate(180)"/>
+  </g>
+</svg>
