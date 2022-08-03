@@ -13,7 +13,7 @@
     </linearGradient>
     <linearGradient id="d" x1="20" x2="40" y1="-8" href="#a"/>
     <clipPath id="b">
-      <path d="M-40-40h80v80h-80v-80zm17 40v40h4V0"/>
+      <path d="M-40-40h80v80h-80v-80zm17 40v40h4V0Z"/>
     </clipPath>
     <path id="c" d="M2-40h38v38A38 38 0 0 1 2-40Z"/>
   </defs>
