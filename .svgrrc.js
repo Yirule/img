@@ -6,7 +6,8 @@ module.exports =  {
     expandProps: "start",
     index: false,
     ext: "jsx",
-    template: require("./.svgr_template.js"),
+    template: require("./.svgr_component.tpl.js"),
+    indexTemplate: require("./.svgr_index.tpl.js"),
 
     prettierConfig: {
         semi: false,
