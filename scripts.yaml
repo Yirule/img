@@ -1,2 +1,3 @@
 scripts:
     build: ./resvg.exe src/corp/Mlikze/logo_mark.svg dist/corp/Mlikze/logo_mark.png -z 20
+    show: deno run --allow-read show.ts

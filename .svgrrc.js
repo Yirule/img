@@ -1,5 +1,5 @@
 module.exports =  {
-    outDir: "jsx",
+    outDir: "jsx/src",
 
     ignoreExisting: true,
     jsxRuntime: "automatic",
