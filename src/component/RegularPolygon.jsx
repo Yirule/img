@@ -15,16 +15,16 @@ export default ({
 
     const rad = Math.PI / 180
 
+    const points = []
     Array(n).fill().map((_, i) =>
-        path.segments.push({
-            type: "C",
-            args: [
-                Math.cos((360 / n * i) * rad) * r,
-                Math.sin((360 / n * i) * rad) * r,
-            ]
-        })
+        points.push(
+            Math.cos((360 / n * i) * rad) * r,
+            Math.sin((360 / n * i) * rad) * r,
+        )
     )
-    console.log(pathParse("M0 0").getSegments())
-    console.log(path)
+    path.segments.push({
+        type: "M",
+        args: points
+    })
     return <Path {...props} d={serializePath(path)} />
 }
